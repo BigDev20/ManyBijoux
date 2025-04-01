@@ -285,6 +285,27 @@ button {
 /* header section end */
 
 /* banner section start */
+/* Ajout GPT*/
+/* Styles pour mobile (écran <768px) */
+@media (max-width: 768px) {
+    .desktop-only {
+       display: none; /* Cache les éléments du bureau */
+    }
+ 
+    .mobile-only {
+       display: block; /* Affiche uniquement le texte Bienvenu */
+    }
+ }
+ 
+ /* Styles par défaut pour le bureau */
+ .desktop-only {
+    display: block;
+ }
+ 
+ .mobile-only {
+    display: none; /* Cache le texte Bienvenu sur le bureau */
+ }
+/* Ajout GPT*/
 
 .banner_section {
     width: 100%;
@@ -350,6 +371,13 @@ button {
     background-color: #f76d37;
     color: #fff;
 }
+/* Ajout GPT*/
+
+.carousel-control-prev, 
+.carousel-control-next {
+    display: none;
+}
+/* about section end */
 
 #main_slider a.carousel-control-next {
     left: 0px;
